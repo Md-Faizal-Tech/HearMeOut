@@ -4,6 +4,7 @@ from telegram.ext import (
     MessageHandler, filters, CallbackQueryHandler
 )
 import asyncio
+import os
 
 TOKEN = os.getenv("BOT_TOKEN")
 
