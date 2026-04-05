@@ -5,7 +5,7 @@ from telegram.ext import (
 )
 import asyncio
 
-TOKEN = "8797243163:AAHJSdwoJgMhRZ6wRKADep2oorStBjGDhxE"
+TOKEN = os.getenv("BOT_TOKEN")
 
 waiting_users = []
 active_chats = {}
